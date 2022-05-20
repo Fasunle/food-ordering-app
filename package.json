@@ -8,6 +8,7 @@
   "badges": ["next.js", "e-commerce", "order"],
   "maintainers": ["kfasunle@gmail.com"],
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
