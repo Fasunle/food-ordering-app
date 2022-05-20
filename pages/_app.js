@@ -1,19 +1,21 @@
-import '../styles/globals.css';
-import Nav from "../components/NavBar";
+import "../styles/globals.css";
+import Nav from "../components/nav";
 import Footer from "../components/Footer";
 
-const Layout = ({children}) => (<>
-    <Nav/>
+const Layout = ({ children }) => (
+  <>
+    <Nav />
     {children}
-    <Footer/>
-</>);
+    <Footer />
+  </>
+);
 
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
-        <Component {...pageProps} />
+      <Component {...pageProps} />
     </Layout>
   );
 }
 
-export default MyApp
+export default MyApp;
